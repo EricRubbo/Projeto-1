@@ -16,7 +16,7 @@ header {
     height: 8vh;
 }
 
-#User{
+#right a{
     text-align: center;
     height: 50px;
 }
@@ -34,25 +34,25 @@ header {
     align-items:center;
 }
 
-#menu {
+#left div {
     margin: 0 10px 0 30px;
     height: 30px;
     font-weight: 30px;
     padding: 10px;
 }
 
-#menu:hover{
+#left div:hover{
     background-color: rgb(222, 222, 222);
     border-radius: 90%;
     background-position-y: center;
 }
 
-#add {
+#right div {
     padding: 7px;
     vertical-align: center;
 }
 
-#add:hover{
+#right div:hover{
     background-color: rgb(222, 222, 222);
     border-radius: 90%;
     background-position-y: center;
@@ -82,18 +82,16 @@ header {
     transition: all 0.4s ease;
 }
 
-#top & #bottom {
+.bottom {
     text-align: center;
     display: flex;
     justify-items:left;
     align-items: center;
     height: auto;
-}
-
-#bottom {
     border-top: 2px solid lightgray;
     margin-top: 20px;
 }
+
 
 .sidebar-list {
     display: flex;
